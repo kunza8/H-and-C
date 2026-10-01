@@ -1,0 +1,27 @@
+p{
+    color: blue
+    ;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    background-color: skyblue;
+    border: 5px solid blue;
+    text-align: center ;
+    border-radius: 40px;
+    text-transform: uppercase;
+
+}
+h2 {
+    font-family: moonspace ;
+    font-size: 50px;
+    text-decoration: underline ;
+}
+highlight {
+    background-color: yellow;
+    color: black;
+}
+
+a{
+    text-align: center;
+}

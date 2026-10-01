@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="styled3.css">
+    <style>
+        div {
+            background-color: red;
+            color: white;
+            font-size:2 rem;
+        
+            flex-grow: 1;
+            height: 100px;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+            border: 3px solid blue;
+            gap: 30px ;
+            justify-content: space space-around;
+
+            align-items: flex-start;
+
+            height:600px;
+        }
+
+        #third{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div>1</div>
+    <div>2</div> 
+    <div>2</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    </main>  
+</body>
+</html>

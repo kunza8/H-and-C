@@ -1,0 +1,20 @@
+#card{
+    background-color: skyblue;
+    padding: 10px;
+    border:5px solid blue;
+    margin: 20px ;
+    width: 200px;
+
+}
+
+h1{
+    border:2px solid pink;
+
+}
+#card-02{
+ border-bottom: 5px solid orange;
+ border-left: 5px solid dark orange;
+ border-right: 5px solid dark orange;
+ background-color: orange;
+ padding: 10px;
+}
